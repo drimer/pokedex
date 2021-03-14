@@ -1,0 +1,5 @@
+export const blueNeutral = '#349CB3'
+export const error = '#F55860'
+export const white = '#F8F8F3'
+export const blueLight = '#89D5D8'
+export const blueDark = '#315264'
