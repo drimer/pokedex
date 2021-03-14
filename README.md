@@ -6,7 +6,7 @@ To run the api
 1. Install Pyhon and a venv
 2. cd api
 3. pip install -r requirements.txt
-4. python manage.py runserver
+4. python webapp/manage.py runserver
 
 
 To run the frontend
