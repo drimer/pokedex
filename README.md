@@ -44,12 +44,19 @@ independent components that are easily unit-testable.
 approaching the issue of showing something like a spinner while async
 operations are done (notice there's isLoading and isSynced in the Redux
 state), but I'm leaving that open due to time constraints.
-   
-3. My IDE has failed to help me with auto-formatting. Something I've done
+  
+4. This is very far from being a production ready approach. Things that
+sould also be considered and implemented:
+   - Logging
+   - Metrics
+   - API system tests
+   - End-to-end tests
+
+5. My IDE has failed to help me with auto-formatting. Something I've done
 with it has screwed that up, so probably some indentation is a bit off,
 and I've probably missed unused imports and things like that.
 
-3. The design of the DB is the most basic one I could come up with in the
+6. The design of the DB is the most basic one I could come up with in the
 time slot. For example:
    - Evolutions is a very interesting thing to model in the DB. Some pokemon
      can evolve into different pokemon. Not only that, but evolution
@@ -63,6 +70,6 @@ time slot. For example:
      - Some other pokemon need to be holding a specific item, evolve at
      a specific time of day, etc.
        
-4. A pokedex usually shows which TMs pokemon can learn, and those differ
+7. A pokedex usually shows which TMs pokemon can learn, and those differ
 between game versions. TMs from 1st generation (Blue/Red/Yellow) aren't
 the same as TRs in Sword/Shield.
